@@ -1,0 +1,5 @@
+WinWait("Open")
+WinActivate("Open")
+ControlSetText("Open", "", "Edit1",$CmdLine[1])
+Sleep(100)
+ControlClick("Open" ,"", "Button1")
